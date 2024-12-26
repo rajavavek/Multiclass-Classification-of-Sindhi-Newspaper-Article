@@ -49,5 +49,5 @@ Dataset: https://github.com/rajavavek/SindMT/blob/main/Articles%20Dataset.csv
 | **Weighted Avg** | 0.96    | 0.96   | 0.96     | 674     |
 
 
-The classification performance of various models on the dataset shows promising results. The CNN model achieved 96.59% accuracy, followed closely by the LSTM at 95.85% and the HyBrefd model at 96%. The RNN model lagged, reaching only 67% accuracy. Overall, deep learning models demonstrated high precision, recall, and F1-scores, showcasing their effectiveness.
+The classification performance of various models on the dataset shows promising results. The CNN model achieved 96.59% accuracy, followed closely by the LSTM at 95.85% and the Hybrid model at 96%. The RNN model lagged, reaching only 67% accuracy. Overall, deep learning models demonstrated high precision, recall, and F1-scores, showcasing their effectiveness.
 
