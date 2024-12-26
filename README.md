@@ -15,3 +15,39 @@ Dataset: https://github.com/rajavavek/SindMT/blob/main/Articles%20Dataset.csv
 | Technology     | 0.939189  | 0.985816 | 0.961938 | 141     |
 | **Accuracy**   | **0.965875** | **0.965875** | **0.965875** | **0.965875** |
 
+
+# RNN Model Classification Report
+
+| Category       | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Entertainment  | 0.54      | 0.45   | 0.49     | 231     |
+| Sports         | 0.64      | 0.70   | 0.67     | 302     |
+| Technology     | 0.91      | 0.95   | 0.93     | 141     |
+| **Accuracy**   | **-**     | **-**  | **0.67** | **674** |
+
+
+
+# LSTM Model Classification Report
+
+| Category       | Precision | Recall  | F1-Score | Support |
+|----------------|-----------|---------|----------|---------|
+| Entertainment  | 0.968750  | 0.939394 | 0.953846 | 231     |
+| Sports         | 0.963576  | 0.963576 | 0.963576 | 302     |
+| Technology     | 0.932432  | 0.978723 | 0.955017 | 141     |
+| **Accuracy**   | **-**     | **-**    | **0.958457** | **674** |
+
+
+# Hybrid Model Classification Report
+
+| Category       | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Entertainment  | 0.96      | 0.94   | 0.95     | 231     |
+| Sports         | 0.96      | 0.97   | 0.97     | 302     |
+| Technology     | 0.95      | 0.97   | 0.96     | 141     |
+| **Accuracy**   | **-**     | **-**  | **0.96** | **674** |
+| **Macro Avg**  | 0.96      | 0.96   | 0.96     | 674     |
+| **Weighted Avg** | 0.96    | 0.96   | 0.96     | 674     |
+
+
+The classification performance of various models on the dataset shows promising results. The CNN model achieved 96.59% accuracy, followed closely by the LSTM at 95.85% and the HyBrefd model at 96%. The RNN model lagged, reaching only 67% accuracy. Overall, deep learning models demonstrated high precision, recall, and F1-scores, showcasing their effectiveness.
+
